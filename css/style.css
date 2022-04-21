@@ -1,0 +1,23 @@
+/* Created by: Katie
+* Created on: April 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit3-02-HTML-VolumeTriangularPyramid
+*/
+
+body {
+  background-color: lightcoral;
+}
+
+h1 {
+  background-color: darkmagenta;
+  color: lavenderblush;
+}
+
+#italicized-text {
+  font-style: italic;
+  color: darkmagenta;
+}
+
+img {
+  border: double 8px deeppink;
+}

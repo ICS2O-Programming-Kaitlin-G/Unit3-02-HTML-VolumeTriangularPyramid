@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit3-02-HTML-VolumeTriangularPyramid -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Volume of a Triangular Pyramid">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Katie G">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"> 
+    
+    <!-- For the Favicon on this page -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+    
+    <!-- Google's MDL -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-deep_orange.min.css"/>
+    
+    <!-- Page title -->
+    <title>Volume of a triangular pyramid smile</title>
+  </head>
+  <body>
+   <!-- Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <div class = "mdl-layout mdl-js-layout--fixed-header">
+    
+    <!-- Container for web page content -->
+    <main class = "mdl-layout__content" style = "padding-left:10px">
+
+      <!-- Page Header -->
+      <center>
+        <h1>Volume of a Triangular Pyramid (aka never before seen top of the line mathematics straight from the kaitlin green association of mathematics headquarters)</h1>
+      </center>
+      <br>
+
+      <!-- Basic text describing page function -->
+      <p>
+        For years, we at the Kaitlin Green association of mathematics have pondered the mystery of the triangular pyramid. We have pored over it's beautiful points and scrumptuous faces, and tried our best to provide the answer to a question we knew was ailing the minds of thousands, if not millions, of esteemed individuals worldwide. 
+      <div id="italicized-text">
+        What is it's volume? How much can it hold? What are the secrets of the inside of the pyramid? 
+      </div>
+      <br>
+      Now, after searching for so long, we believe we have found the answer. Sit back, dear people, and relax; we have simplified the process for you. We have made our revolutionary process into an easy to use calculator. <br> Look down below, and allow your mind, your very soul, to be calmed by its simplicity, by its gorgeous existence. 
+      </p>
+
+      <!-- Image of a triangular pyramid -->
+      <center>
+        <img src="./images/triangular-pyramid.jpeg" alt="triangular pyramid" width="300px" height="300px">
+
+        <!-- Javascript script lookup for calculator and first text field-->
+        <script src="./js/script.js"></script>
+        <form action="javascript:calculateVolumeClicked()">
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="side-a">
+              <label class="mdl-textfield__label" for="side-a">Insert side a of the triangular pyramid in cm</label>
+              <span class="mdl-textfield__error">Input is not an accepted format...</span>
+            </div>
+          <br>
+          
+          <!-- Second text field -->
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="side-b">
+              <label class="mdl-textfield__label" for="side-b">Insert side b of the triangular pyramid in cm</label>
+              <span class="mdl-textfield__error">Input is not an accepted format...</span>
+            </div>
+          <br>
+          
+          <!-- Third text field -->
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+              <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="height">
+              <label class="mdl-textfield__label" for="height">Insert the height of the triangular pyramid in cm</label>
+              <span class="mdl-textfield__error">Input is not an accepted format</span>
+            </div>
+          <br>
+          
+          <!-- Raised button with ripple -->
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect" onclick="calculateVolumeClicked()">
+            Calculate Volume
+          </button>
+        </form>
+      </center>
+
+      <!-- results -->
+      <div id="volume-results"></div>
+    </main>
+    </div>
+  </body>
+</html>
