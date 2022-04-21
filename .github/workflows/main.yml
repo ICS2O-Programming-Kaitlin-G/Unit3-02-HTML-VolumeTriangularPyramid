@@ -1,2 +1,12 @@
-- name: Super-Linter
-  uses: github/super-linter@v4.9.2
+on: [push]
+jobs: 
+  builds: 
+  
+    runs-on: ubuntu-latest
+    
+    steps: 
+    - uses: actions/checkout@v1
+    - name: Super-Linter
+      uses: github/super-linter@v4.9.2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
