@@ -1,2 +1,2 @@
 # Unit3-02-HTML-VolumeTriangularPyramid
-[![GitHub Super-Linter](https://github.com/ICS2O-Programming-Kaitlin-G/Unit3-02-HTML-VolumeTriangularPyramid/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![GitHub's Super Linter](https://github.com/ICS2O-Programming-Kaitlin-G/Unit3-02-HTML-VolumeTriangularPyramid/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/ICS2O-Programming-Kaitlin-G/Unit3-02-HTML-VolumeTriangularPyramid/actions)
